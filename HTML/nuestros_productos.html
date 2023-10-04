@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestros Productos</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <style>
+        .services-section {
+            padding: 10px;
+            text-align: center;
+            
+        }
+
+        .service-card {
+            border: 10px solid #e98ba3;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 5px;
+            display: inline-block;
+            width: 20%;
+        }
+        .service-card:hover{
+            transform: scale(1.1);
+            border-radius: 50%;
+            box-shadow: 0 0 10px 1px rgb(184, 183, 183);
+            transition: all ease-in-out .4s;
+            cursor: pointer;
+        }
+
+        .service-title {
+            font-size: 30px;
+            font-weight: "600";
+        }
+
+        .service-description {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>K&B MAKEUP ART</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="sobre_nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="contactanos.html">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <center>
+            <h2>Nuestros Productos</h2>
+            <p>Descubre nuestra amplia gama de productos de maquillaje, desde bases hasta labiales y todo lo que necesitas para resaltar tu belleza.</p>
+        </center>
+        
+    </main>
+    <section class="services-section">
+        <!-- Servicio #1 -->
+        <div class="service-card">
+            <h2 class="service-title">Maquillaje</h2>
+            <img id="logo_maquillaje" src="../Multimedia/Maquillaje.png" width="40px" height="50px">
+            <a href="../HTML/sub-pagina-productos/maquillaje.html">Ver Productos</a>
+        </div>
+        <!-- Servicio #2 -->
+        <div class="service-card">
+            <h2 class="service-title">Cuidado facial</h2>
+            <img id="logo_cuidadoF" src="../Multimedia/Cuidado Facial.png"width="40px" height="50px">
+            <a href="../HTML/sub-pagina-productos/cuidado-facial.html">Ver Productos</a>
+        </div>
+        <!-- Servicio #3 -->
+        <div class="service-card">
+            <h2 class="service-title">Utensilios</h2>
+            <img id="logo_Utensilios" src="../Multimedia/Utensilios.png"width="40px" height="50px">
+            <a href="../HTML/sub-pagina-productos/utensilios.html">Ver productos</a>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Venta de Maquillaje. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
